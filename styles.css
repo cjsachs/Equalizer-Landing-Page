@@ -52,7 +52,6 @@ main {
     height: 600px;
     background-color: #191826;
     background-image: url(./assets/bg-pattern-2.svg);
-    /* background-size: 50%; */
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -128,17 +127,22 @@ footer {
     margin-top: 320px;
 }
 
-footer p, footer h6 {
+footer p, footer span {
     line-height: 26px;
 }
 
-footer h6 {
+footer span {
     font-weight: 700;
 }
 
-footer div {
+.image-container {
     display: flex;
     margin: 40px 0 80px 0;
+}
+
+.image-container img {
+    width: 20px;
+    height: 20px;
 }
 
 footer div img {
@@ -147,4 +151,65 @@ footer div img {
 
 footer .logo {
     padding-left: 0;
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) {
+    header {
+        background-image: url(./assets/bg-pattern-1.svg), url(./assets/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position: 105% -30%, center;
+        background-size: 268px, cover;
+    }
+    .first-container {
+        width: 520px;
+        padding-left: 39px;
+        padding-bottom: 80px;
+    }
+
+    .first-container h2 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    .first-container p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .phone-img {
+        width: 270px;
+        top: -140px;
+        margin-left: 100px;
+    }
+
+    .dark-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .second-container {
+        width: 50%;
+        height: 550px;
+        right: 100px;
+        top: 180px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 0 40px;
+        margin-top: 140px;
+    }
+
+    .equalizer-container p {
+        width: 366px;
+    }
+
+    .image-container {
+        margin: 0;
+        margin-bottom: 20px;
+        align-items: end;
+    }
 }
