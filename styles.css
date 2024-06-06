@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+    background-image: url(./assets/bg-main-mobile.png);
+    background-position-y: center;
+    color: #191826;
+    padding-bottom: 160px;
+}
+
+
+
+.logo, .first-container h2 {
+    padding: 40px 0 20px 24px
+}
+
+.first-container h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    font-weight: 700;
+}
+
+.first-container p {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 20px;
+}
+
+main {
+    position: relative;
+}
+
+.phone-img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -100px;
+    width: 209px;
+    margin: 0 auto;
+}
+
+.dark-container {
+    border-radius: 16px;
+    width: 375px;
+    height: 600px;
+    background-color: #191826;
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.second-container {
+    position: absolute;
+    bottom: -320px;
+    background-color: #FA7453;
+    color: #FCFAF9;
+    padding: 48px 36px;
+    border-radius: 16px;
+}
+
+.second-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.second-container p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.price-container {
+    margin-top: 36px;
+}
+
+.price {
+    font-size: 65px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.per-month {
+    margin-left: 16px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+.ios-btn, .android-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    font-weight: 700;
+}
+
+.ios-btn img, .android-btn img {
+    margin-right: 5px;
+}
+
+.ios-btn {
+    background-color: #191826;
+    color: #FCFAF9;
+    padding: 10px 78px;
+    margin: 32px 0 16px 0;
+}
+
+
+.android-btn {
+    padding: 10px 60px;
+}
+
+footer {
+    margin: 0 24px;
+    margin-top: 320px;
+}
+
+footer p, footer h6 {
+    line-height: 26px;
+}
+
+footer h6 {
+    font-weight: 700;
+}
+
+footer div {
+    display: flex;
+    margin: 40px 0 80px 0;
+}
+
+footer div img {
+    margin-right: 10px;
+}
+
+footer .logo {
+    padding-left: 0;
+}
