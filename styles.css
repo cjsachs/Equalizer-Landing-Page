@@ -60,6 +60,7 @@ main {
 
 .second-container {
     position: absolute;
+    width: 100%;
     bottom: -320px;
     background-color: #FA7453;
     color: #FCFAF9;
