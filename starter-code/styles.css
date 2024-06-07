@@ -16,6 +16,7 @@ header {
 
 .first-container {
     padding-left: 0;
+    padding-left: 39px;
 }
 
 .logo,
@@ -169,7 +170,6 @@ footer .logo {
   }
   .first-container {
     width: 520px;
-    padding-left: 39px;
     padding-bottom: 80px;
   }
 
