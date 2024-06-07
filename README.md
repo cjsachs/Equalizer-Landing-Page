@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo:](https://github.com/cjsachs/Equalizer-Landing-Page)
-- Live Site URL: [Hosted on Vercel:](https://equalizer-landing-page-kohl-nine.vercel.app/)
+- Solution URL: [Github Repo - ](https://github.com/cjsachs/Equalizer-Landing-Page)
+- Live Site URL: [Hosted on Vercel - ](https://equalizer-landing-page-kohl-nine.vercel.app/)
 
 ## My process
 
