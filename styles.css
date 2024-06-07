@@ -82,6 +82,8 @@ main {
 }
 
 .price-container {
+  display: flex;
+  align-items: center;
   margin-top: 36px;
 }
 
@@ -107,8 +109,9 @@ main {
   letter-spacing: -0.18px;
   font-weight: 700;
   display: block;
-  margin: 16px auto;
+  margin: 16px auto 0 auto;
   width: 100%;
+  padding: 16px 60px;
 }
 
 .ios-btn img,
@@ -119,12 +122,7 @@ main {
 .ios-btn {
   background-color: #191826;
   color: #fcfaf9;
-  padding: 10px 78px;
   margin-top: 32px;
-}
-
-.android-btn {
-  padding: 10px 60px;
 }
 
 footer {
@@ -137,7 +135,8 @@ footer span {
   line-height: 26px;
 }
 
-footer span {
+.email {
+  display: block;
   font-weight: 700;
 }
 
@@ -202,18 +201,38 @@ footer .logo {
     top: 180px;
   }
 
+  .android-btn {
+    margin-bottom: auto;
+  }
+
+
   footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
     margin: 0 40px;
     margin-top: 140px;
     padding-bottom: 85px;
   }
 
-  .equalizer-container p {
-    width: 366px;
+  footer .logo {
+    width: 147px;
   }
+   .equalizer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   }
+
+   .equalizer-child {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .email {
+    display: inline;
+   }
+
+   .equalizer-container p {
+    width: 366px;
+   }
 
   .image-container {
     margin: 0;
@@ -271,6 +290,11 @@ footer .logo {
     font-size: 20px;
   }
 
+  .price-container {
+    padding-bottom: 26px;
+  }
+
+
   .ios-btn:hover {
     cursor: pointer;
     background-color: #66E2DC;
@@ -281,8 +305,28 @@ footer .logo {
     background-color: #FFB964;
   }
 
+  footer {
+    margin: 0 165px;
+    margin-top: 200px;
+  }
+
+  .equalizer-container {
+    flex-direction: row;
+  }
+  
+  footer .logo {
+    margin: 0 100px auto 100px;
+    padding: 0;
+  }
+
+  .equalizer-child {
+    width: 100%;
+    justify-content: space-around;
+    align-items: end;
+  }
+
   .image-container img:hover {
     cursor: pointer;
-    background-color: #fa7453;
+    filter: invert(59%) sepia(49%) saturate(3877%) hue-rotate(330deg) brightness(109%) contrast(96%);
   }
 }
